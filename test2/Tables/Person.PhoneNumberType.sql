@@ -6,6 +6,7 @@ CREATE TABLE [Person].[PhoneNumberType] (
 		[PhoneNumberTypeID]     [int] IDENTITY(1, 1) NOT NULL,
 		[Name]                  [dbo].[Name] NOT NULL,
 		[ModifiedDate]          [datetime] NOT NULL,
+		[sad]                   [int] NULL,
 		CONSTRAINT [PK_PhoneNumberType_PhoneNumberTypeID]
 		PRIMARY KEY
 		CLUSTERED

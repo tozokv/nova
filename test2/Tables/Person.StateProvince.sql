@@ -11,6 +11,7 @@ CREATE TABLE [Person].[StateProvince] (
 		[TerritoryID]                 [int] NOT NULL,
 		[rowguid]                     [uniqueidentifier] NOT NULL ROWGUIDCOL,
 		[ModifiedDate]                [datetime] NOT NULL,
+		[asd]                         [int] NULL,
 		CONSTRAINT [PK_StateProvince_StateProvinceID]
 		PRIMARY KEY
 		CLUSTERED

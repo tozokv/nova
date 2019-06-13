@@ -17,6 +17,7 @@ CREATE TABLE [Person].[Person] (
 		[rowguid]                   [uniqueidentifier] NOT NULL ROWGUIDCOL,
 		[ModifiedDate]              [datetime] NOT NULL,
 		[ddd]                       [int] NULL,
+		[dddd]                      [int] NULL,
 		CONSTRAINT [PK_Person_BusinessEntityID]
 		PRIMARY KEY
 		CLUSTERED
